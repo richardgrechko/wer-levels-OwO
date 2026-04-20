@@ -23,7 +23,6 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 		data[i.split(" ")[0]] = Number(i.split(" ")[1])
 	};
 	for (let i of Object.keys(data)) {
-		if (i == "Luca12FCSB") continue;
 		let op = document.createElement("option");
 		op.value = i;
 		op.innerHTML = i;

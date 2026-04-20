@@ -6,7 +6,7 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 			this.style = opts.style ?? "";
 		}
 	};
-	const style = {
+	const styles = {
 		0: new Info({name: "No ler at all",style:"color:#bc231a"}),
 		2.5: new Info({name: "No ler",style:"color:#ff2324"}),
 		10: new Info({name: "Bottomline ler",style:"color:#ff9020"}),

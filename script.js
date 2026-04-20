@@ -30,7 +30,6 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 	}
 	function round(x) {
 		const arr = Object.keys(styles);
-		if (x > 1e6) return 1e6
 		for (let i in arr) {
 			if (arr[i] > x) return arr[i - 1] ?? 0
 		}

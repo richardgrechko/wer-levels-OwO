@@ -7,15 +7,15 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 		}
 	};
 	const styles = {
-		0: new Info({name: "No ler at all",style:"color:#bc231a"}),
-		2.5: new Info({name: "No ler",style:"color:#ff2324"}),
-		10: new Info({name: "Bottomline ler",style:"color:#ff9020"}),
-		50: new Info({name: "Low ler",style:"color:#ffff20"}),
-		100: new Info({name: "Moderate ler",style:"color:#b0ff20"}),
-		250: new Info({name: "Medium ler",style:"color:#70ff20"}),
-		1000: new Info({name: "High ler",style:"color:#20ff20"}),
-		2500: new Info({name: "Borderline ler",style:"color:#20ff70"}),
-		5000: new Info({name: "Skyline ler",style:"color:#20ffb0"}),
+		0: new Info({name: "No ler/wer at all",style:"color:#bc231a"}),
+		2.5: new Info({name: "No ler/wer",style:"color:#ff2324"}),
+		10: new Info({name: "Bottomline ler/wer",style:"color:#ff9020"}),
+		50: new Info({name: "Low ler/wer",style:"color:#ffff20"}),
+		100: new Info({name: "Moderate ler/wer",style:"color:#b0ff20"}),
+		250: new Info({name: "Medium ler/wer",style:"color:#70ff20"}),
+		1000: new Info({name: "High ler/wer",style:"color:#20ff20"}),
+		2500: new Info({name: "Borderline ler/wer",style:"color:#20ff70"}),
+		5000: new Info({name: "Skyline ler/wer",style:"color:#20ffb0"}),
 	}
 	const data = {};
 	d = d.split("\n")

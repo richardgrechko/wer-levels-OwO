@@ -1,4 +1,4 @@
-await fetch("./database.txt").then(e=>e.text()).then(d=>{
+fetch("./database.txt").then(e=>e.text()).then(d=>{
 	// Do something
 	class Info {
 		constructor(opts) {

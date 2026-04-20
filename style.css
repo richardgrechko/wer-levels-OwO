@@ -1,0 +1,34 @@
+* {
+  background-color: #000;
+  color: #fff;
+}
+select {
+    padding: 4px 8px;
+    /* compact size */
+    font-size: 14px;
+    color: #fff;
+    color: #000000;
+    background-color: rgb(153 160 255 / 20%);
+    background: linear-gradient(to bottom, #f0f6ff47, #f0f6ff77);
+    box-shadow: inset 0 0 5px #8cf;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.25s ease;
+    appearance: none;
+    /* removes default arrow on some browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+select:hover {
+    color: #000000;
+    background-color: rgb(153 160 255 / 20%);
+    background: linear-gradient(to bottom, #f0f6ff77, #f0f6ff);
+    box-shadow: inset 0 0 5px #8cf;
+}
+select:focus {
+    background-color: rgb(153 160 255 / 20%);
+    background: linear-gradient(to bottom, #f0f6ff77, #f0f6ff);
+    box-shadow: inset 0 0 5px #8cf;
+}

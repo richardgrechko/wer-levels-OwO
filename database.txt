@@ -1,8 +1,8 @@
-Luca12FCSB 1.797693134e308
-katz.richard 7253.5
-Europe2048_ 1905.5
-BG_R 1044.3
-KamilDabroski952 435.5
-tw.nw119.me 45.5
-dominoguy_ 3.55
-RelicGuyX -76446.8
+Luca12FCSB 1.797693134e308 1
+katz.richard 7253.5 1
+Europe2048_ 1905.5 0
+BG_R 1044.3 0
+KamilDabroski952 435.5 0
+tw.nw119.me 45.5 0
+dominoguy_ 3.55 0
+RelicGuyX -76446.8 0

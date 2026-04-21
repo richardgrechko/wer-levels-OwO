@@ -7,7 +7,7 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 		}
 	};
 	const styles = {
-		[-Infinity]: new Info({name: "Negative $\"ler\" ⁉️",style:"color:#75231a"}),
+		[-1.797693134e308]: new Info({name: "Negative $\"ler\" ⁉️",style:"color:#75231a"}),
 		0: new Info({name: "No $\"ler\" at all",style:"color:#bc231a"}),
 		2.5: new Info({name: "No $\"ler\"",style:"color:#ff2324"}),
 		10: new Info({name: "Bottomline $\"ler\"",style:"color:#ff9020"}),
@@ -23,7 +23,7 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 	for (let i of d) {
 		data[i.split(" ")[0]] = {
 			value: Number(i.split(" ")[1]),
-			isFurry: Boolean(i.split(" ")[2])
+			isFurry: Boolean(Number(i.split(" ")[2]))
 		}
 	};
 	for (let i of Object.keys(data)) {

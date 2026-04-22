@@ -7,7 +7,7 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 		}
 	};
 	const styles = {
-		[-1.797693134e308]: new Info({name: "Negative $\"ler\" ⁉️",style:"color:#75231a"}),
+		[-1]: new Info({name: "Negative $\"ler\" ⁉️",style:"color:#75231a"}),
 		0: new Info({name: "No $\"ler\" at all",style:"color:#bc231a"}),
 		2.5: new Info({name: "No $\"ler\"",style:"color:#ff2324"}),
 		10: new Info({name: "Bottomline $\"ler\"",style:"color:#ff9020"}),
@@ -34,6 +34,7 @@ fetch("./database.txt").then(e=>e.text()).then(d=>{
 	}
 	function round(x) {
 		const arr = Object.keys(styles);
+		if (x < 0) return -1;
 		if (x > 5000) return 5000;
 		for (let i in arr) {
 			if (arr[i] > x) return arr[i - 1] ?? 0
